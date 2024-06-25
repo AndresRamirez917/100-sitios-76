@@ -107,6 +107,7 @@ form .btn {
 #mainheader .navbar li {
   display: inline-block;
   text-align: center;
+  margin-left: 1rem;
 }
 #mainheader .navbar .container {
   display: flex;
@@ -123,7 +124,7 @@ form .btn {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-#showcase .box-1 .msj1 {
+#showcase .box-1 .msj1, #showcase .box-2 .msj1, #showcase .box-4 .msj1, #showcase .box-5 .msj1, #showcase .box-6 .msj1 {
   width: 150px;
   padding: 9rem 1rem 2rem 1rem;
   display: flex;
@@ -142,6 +143,16 @@ form .btn {
   background: url("/images/portfolio-3.jpg");
   grid-column: 3/5;
   grid-row: 1/3;
+}
+#showcase .box-3 .msj1 {
+  width: 150px;
+  padding: 25rem 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
 }
 #showcase .box-4 {
   background: url("/images/portfolio-4.jpg");
@@ -167,6 +178,19 @@ form .btn {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#project {
+  width: 80%;
+  margin: 0 auto;
+}
+#project img {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+#project p {
+  text-align: justify;
+  line-height: 27px;
 }
 
 #contact {
