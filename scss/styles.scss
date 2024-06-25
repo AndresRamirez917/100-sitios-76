@@ -14,7 +14,7 @@ html, body {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
     text-transform: uppercase;
     color: #000;
 }
@@ -29,6 +29,7 @@ a {
 .navbar ul li a:hover,
 .navbar ul li a.active {
     color: violet;
+    text-decoration: underline;
 }
 
 .container {

@@ -1,3 +1,21 @@
+#mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2rem;
+}
+#mainheader .navbar ul {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar li {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+
 .grid {
   grid-template-columns: repeat(1, 1fr);
 }
@@ -27,4 +45,31 @@
 #showcase .box-5,
 #showcase .box-6 {
   grid-column: 1;
+}
+
+#about {
+  width: 100%;
+  margin: 0 auto;
+}
+#about h2 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#about p {
+  display: block;
+  margin: 0 auto;
+  text-align: justify;
+  padding-top: 2rem;
+}
+
+#work h2 {
+  text-align: center;
+}
+#work .work-row {
+  display: block;
+}
+
+#project img {
+  width: 100%;
 }/*# sourceMappingURL=mobile.css.map */
