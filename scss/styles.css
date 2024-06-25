@@ -50,7 +50,7 @@ a {
 .flex {
   display: flex;
   flex: 1;
-  gap: 50px;
+  gap: 20px;
 }
 
 .grid {
@@ -193,8 +193,36 @@ form .btn {
   line-height: 27px;
 }
 
-#contact {
+#about {
   width: 80%;
+  margin: 0 auto;
+}
+#about p {
+  width: 70% !important;
+  text-align: justify;
+}
+
+#work {
+  width: 80%;
+  margin: 0 auto;
+}
+#work .work-row {
+  margin-bottom: 2rem;
+}
+#work .work-row .flex-box {
+  flex: 1;
+}
+#work .work-row .flex-box img {
+  width: 100%;
+}
+#work .work-row .flex-box p {
+  margin: 1rem 0 2rem 0;
+  font-size: small;
+  text-align: justify;
+}
+
+#contact {
+  width: 70%;
   margin: 0 auto;
 }
 #contact form .flex-box-1 {
